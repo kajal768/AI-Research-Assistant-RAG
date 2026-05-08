@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://127.0.0.1:8000";
+const API_BASE_URL = "https://ai-research-assistant-rag-3qfy.onrender.com";
 
 const CHAT_STORAGE_KEY = "rag_chat_sessions";
 
