@@ -1,0 +1,301 @@
+[
+  {
+    "id": "1d6d8ce1-372a-45ff-b23d-b685f65df3c7_page_1_chunk_1",
+    "document_id": "1d6d8ce1-372a-45ff-b23d-b685f65df3c7",
+    "text": "Kajal Rajput\nPhone+91 8725974501 Envelopekr8259050@gmail.com LINKEDINlinkedin.com/in/kajal-rajput-dev Githubgithub.com/kajal768\nSUMMARY\nWeb Developer with 9 months of experience in PHP, MySQL, and JavaScript. Built real-world applications including OCR-based\nautomation system using Tesseract and A WS. Currently learning Python and AI for automation and backend development.\nEXPERIENCE\nMakeStudy Aug 2025 – Present\nWeb Developer, Punjab, India\n• Developed and maintained web applications using PHP, MySQL, and JavaScript.\n• Built authentication systems, dashboards, and CRUD modules.\n• Integrated frontend and backend for seamless data flow.\n• Developed OCR-based Passport Auto-Fill system using Tesseract OCR and A WS.\n• Implemented features like PDF export, print, and email functionality.\n• Used AI tools like ChatGPT and Claude for debugging and optimization.\nPROJECTS",
+    "metadata": {
+      "document_id": "1d6d8ce1-372a-45ff-b23d-b685f65df3c7",
+      "filename": "harshibar_s_resume__1_.pdf",
+      "page": 1,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T16:15:38.354460"
+    }
+  },
+  {
+    "id": "1d6d8ce1-372a-45ff-b23d-b685f65df3c7_page_1_chunk_2",
+    "document_id": "1d6d8ce1-372a-45ff-b23d-b685f65df3c7",
+    "text": "CaptionCraft AI (AI Caption Generator)\n• Built AI-based caption generator using APIs and prompt engineering.\n• Improved output accuracy by optimizing prompts.\n• Designed responsive UI for better user experience.\nSky Aura T ravel W ebsite\n• Designed modern travel website with responsive layout.\n• Focused on clean UI and user-friendly navigation.\nCoffee Brand W ebsite\n• Developed stylish website with modern UI and responsive design.\nEDUCATION\nIK Gujral Punjab T echnical University 2022 – 2025\nBachelor of Computer Applications, Punjab, India\nSKILLS\nLanguages: PHP, JavaScript, HTML, CSS, SQL, Python (Basic)\nF rameworks: Laravel, CodeIgniter, Bootstrap\nT ools: GitHub, VS Code, XAMPP\nDesign: Figma, Canva\nAI T ools: ChatGPT, Claude\nOther: REST API, OCR (Tesseract), A WS Basics\nAI & PYTHON LEARNING\n• Learning Python for automation and backend development.",
+    "metadata": {
+      "document_id": "1d6d8ce1-372a-45ff-b23d-b685f65df3c7",
+      "filename": "harshibar_s_resume__1_.pdf",
+      "page": 1,
+      "chunk": 2,
+      "type": "pdf",
+      "timestamp": "2026-05-08T16:15:38.354460"
+    }
+  },
+  {
+    "id": "1d6d8ce1-372a-45ff-b23d-b685f65df3c7_page_1_chunk_3",
+    "document_id": "1d6d8ce1-372a-45ff-b23d-b685f65df3c7",
+    "text": "• Understanding APIs, JSON handling, and data processing.\n• Exploring OCR and AI-based tools.",
+    "metadata": {
+      "document_id": "1d6d8ce1-372a-45ff-b23d-b685f65df3c7",
+      "filename": "harshibar_s_resume__1_.pdf",
+      "page": 1,
+      "chunk": 3,
+      "type": "pdf",
+      "timestamp": "2026-05-08T16:15:38.354460"
+    }
+  },
+  {
+    "id": "49916887-2a5a-4a19-808b-9954716a2c82_page_1_chunk_1",
+    "document_id": "49916887-2a5a-4a19-808b-9954716a2c82",
+    "text": "Invoice\nOrder ID: APP1-1756365189050\nTxn ID: TXN1756365194cea41e51\nDate: 28 Aug 2025 07:13\nStatus: Success\nhttps://visa4u.online/\nsupport@visa4u.online\nBilled To\nParminder Singh\np.singh@makestudy.com\n9875901624\nGateway: payu\nCurrency: INR\nApplication: United Kingdom (UK) / Visitor / Tourist\nService Context Amount\nEmbassy Fee (Standard Visitor VIsa - up to 2 years)\nLonger-term (valid for up to 2 years)\nUnited Kingdom (UK) /\nVisitor / Tourist\nGBP 475.00\nTotal INR 54,625.00\nThis invoice is generated electronically. For queries, contact support@visa4u.online.",
+    "metadata": {
+      "document_id": "49916887-2a5a-4a19-808b-9954716a2c82",
+      "filename": "invoice_APP1-1756365189050.pdf",
+      "page": 1,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T16:16:47.669749"
+    }
+  },
+  {
+    "id": "6144c3fe-8df5-4327-9eae-3e2360878c66_page_1_chunk_1",
+    "document_id": "6144c3fe-8df5-4327-9eae-3e2360878c66",
+    "text": "ASSIGNMENT: Build an Advanced Document Q&A RAG System with Multi-Agent\nArchitecture\nOVERVIEW:\nCreate a sophisticated RAG (Retrieval-Augmented Generation) application were users\nupload documents (text/PDF), builds a knowledge base and then query the content. The\nsystem uses a multi-agent architecture with MCP (Model Context Protocol) integration\nto retrieve relevant info, perform web searches when needed, and generate accurate\nanswers using an LLM.\nMUST USE: LangGraph for agent orchestration\nCORE REQUIREMENTS\n1. MULTI-AGENT ARCHITECTURE\nImplement a coordinated multi-agent system with the following agents:\nOrchestrator Agent, Query Analysis Agent, Retrieval Agent, Re-ranking Agent,\nGeneration Agent, Citation Agent\n2. MCP (MODEL CONTEXT PROTOCOL) INTEGRATION\nRequired MCP Servers:\n- Web Search MCP Server, Vector Database MCP Server, Document Processing MCP\nServer (Optional but Recommended)",
+    "metadata": {
+      "document_id": "6144c3fe-8df5-4327-9eae-3e2360878c66",
+      "filename": "Assignment_PythonDev New.pdf",
+      "page": 1,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T16:17:55.365754"
+    }
+  },
+  {
+    "id": "6144c3fe-8df5-4327-9eae-3e2360878c66_page_1_chunk_2",
+    "document_id": "6144c3fe-8df5-4327-9eae-3e2360878c66",
+    "text": "3. DOCUMENT PROCESSING\n- Accept text files (.txt, .md) and PDFs\n- Extract text content accurately\n- Support image extraction from PDFs with OCR\n- Chunk documents intelligently (consider semantic boundaries)\n- Generate embeddings for all chunks\n- Preserve document metadata (filename, page numbers, timestamps)",
+    "metadata": {
+      "document_id": "6144c3fe-8df5-4327-9eae-3e2360878c66",
+      "filename": "Assignment_PythonDev New.pdf",
+      "page": 1,
+      "chunk": 2,
+      "type": "pdf",
+      "timestamp": "2026-05-08T16:17:55.365754"
+    }
+  },
+  {
+    "id": "6144c3fe-8df5-4327-9eae-3e2360878c66_page_2_chunk_1",
+    "document_id": "6144c3fe-8df5-4327-9eae-3e2360878c66",
+    "text": "4. HYBRID SEARCH IMPLEMENTATION\n5. CONVERSATION MEMORY & HISTORY\n- Implement conversation history tracking\n- Enable follow-up questions with context awareness\n- Store conversation turns in memory\n- Use conversation buffer or summary memory\n- Allow users to reference previous questions/answers\n6. BACKEND & FRONTEND ARCHITECTURE\nBackend (Fast API):\n- Build RESTful API using Fast API\n- Appropriate Endpoints as required\nFrontend (HTML/CSS/JavaScript):\n- Build single-page application using vanilla HTML, CSS, and JavaScript\n- No frameworks required (React, Vue, etc.) - pure HTML/CSS/JS only\n- Can use simple libraries like Bootstrap for styling (optional)\nDELIVERABLES\n1. Source code repository\n2. Documentation\n3. Demo:\n- Sample documents for testing\n- Example queries demonstrating key features",
+    "metadata": {
+      "document_id": "6144c3fe-8df5-4327-9eae-3e2360878c66",
+      "filename": "Assignment_PythonDev New.pdf",
+      "page": 2,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T16:17:55.365754"
+    }
+  },
+  {
+    "id": "c549b5b6-6576-467c-aa51-7234d709f6ee_page_1_chunk_1",
+    "document_id": "c549b5b6-6576-467c-aa51-7234d709f6ee",
+    "text": "Holland Student Detail\nKajal Rajput\nID: HL2926    Nationality: American Samoa    DOB: 16/04/2026    Gender: Female\ndraft Sept 2026\n1 BSc Business Psychology\nSept 2026   BCA 12th   Haarlem university of Applied Science   01/05/2026\nProfile\nPersonal Information\nGiven name Kajal\nFamily name Rajput\nGender Female\nMarital status Single\nCitizenship American Samoa\nFather name Ram\nMother name Rajeshwari\nPassport number 1234467\nDate of birth 16/04/2026\nStudent ID HL2926\nContacts\nEmail kr8259050@gmail.com\nAlternate email kr8259050@gmail.com\nMobile +1684 123456899\nAlternate contact —",
+    "metadata": {
+      "document_id": "c549b5b6-6576-467c-aa51-7234d709f6ee",
+      "filename": "nl-student-detail-29 (5).pdf",
+      "page": 1,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T16:21:35.436773"
+    }
+  },
+  {
+    "id": "c549b5b6-6576-467c-aa51-7234d709f6ee_page_2_chunk_1",
+    "document_id": "c549b5b6-6576-467c-aa51-7234d709f6ee",
+    "text": "Residential address New layout Ovum Ogbor Hill Aba\nCorrespondence address New layout Ovum Ogbor Hill Aba\nCity / Province / Region Abia, Alberta\nPostal code 144601\nCountry American Samoa\nHolland Information\nOnshore Student No\nHolland Contact No 688762353\nHolland Address New layout Ovum Ogbor Hill Aba\nHolland College Attended No\nHolland College Name N/A\nCourse Start Date 01/05/2026\nCourse End Date 16/05/2026\nAgency Information\nApply By Agency Yes\nAgency MakeStudy\nAgent ID 1\nEducation Background\nBCA\n12th\nApplications\n# College & Program Application &\nOffer Letter\nFee / Deposit Class Start Reference\nNo",
+    "metadata": {
+      "document_id": "c549b5b6-6576-467c-aa51-7234d709f6ee",
+      "filename": "nl-student-detail-29 (5).pdf",
+      "page": 2,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T16:21:35.436773"
+    }
+  },
+  {
+    "id": "c549b5b6-6576-467c-aa51-7234d709f6ee_page_3_chunk_1",
+    "document_id": "c549b5b6-6576-467c-aa51-7234d709f6ee",
+    "text": "1 Haarlem university of\nApplied Science\nBSc Business Psychology\nCreated: 16 Apr 2026\nApplication fee:\n850\nPayment date:\n01/05/2026\nOL Status: Applied\nOL Issue Date:\n01/05/2026\nLOA Deposit:\n05345\nDeposit date: —\nLOA Status: Not\napplied\nPAL Status: Not\nissued\nDeadline:\n01/05/2026\nAdditional fee:\n200\nIntake: Sept\n2026\nStart:\n01/05/2026\n—\nVisa Information\nCollege Program Submission\nDate\nVisa Status Refund\nHaarlem university of Applied\nScience\nBSc Business\nPsychology\n30/04/2026 Visa Under\nProcess\nNo\nThis is a system generated student detail document for internal use and printing.",
+    "metadata": {
+      "document_id": "c549b5b6-6576-467c-aa51-7234d709f6ee",
+      "filename": "nl-student-detail-29 (5).pdf",
+      "page": 3,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T16:21:35.436773"
+    }
+  },
+  {
+    "id": "01d64491-a02c-4687-8ef6-8ab52e2e2c68_page_1_chunk_1",
+    "document_id": "01d64491-a02c-4687-8ef6-8ab52e2e2c68",
+    "text": "ASSIGNMENT: Build an Advanced Document Q&A RAG System with Multi-Agent\nArchitecture\nOVERVIEW:\nCreate a sophisticated RAG (Retrieval-Augmented Generation) application were users\nupload documents (text/PDF), builds a knowledge base and then query the content. The\nsystem uses a multi-agent architecture with MCP (Model Context Protocol) integration\nto retrieve relevant info, perform web searches when needed, and generate accurate\nanswers using an LLM.\nMUST USE: LangGraph for agent orchestration\nCORE REQUIREMENTS\n1. MULTI-AGENT ARCHITECTURE\nImplement a coordinated multi-agent system with the following agents:\nOrchestrator Agent, Query Analysis Agent, Retrieval Agent, Re-ranking Agent,\nGeneration Agent, Citation Agent\n2. MCP (MODEL CONTEXT PROTOCOL) INTEGRATION\nRequired MCP Servers:\n- Web Search MCP Server, Vector Database MCP Server, Document Processing MCP\nServer (Optional but Recommended)",
+    "metadata": {
+      "document_id": "01d64491-a02c-4687-8ef6-8ab52e2e2c68",
+      "filename": "Assignment_PythonDev New.pdf",
+      "page": 1,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:25:26.461773"
+    }
+  },
+  {
+    "id": "01d64491-a02c-4687-8ef6-8ab52e2e2c68_page_1_chunk_2",
+    "document_id": "01d64491-a02c-4687-8ef6-8ab52e2e2c68",
+    "text": "3. DOCUMENT PROCESSING\n- Accept text files (.txt, .md) and PDFs\n- Extract text content accurately\n- Support image extraction from PDFs with OCR\n- Chunk documents intelligently (consider semantic boundaries)\n- Generate embeddings for all chunks\n- Preserve document metadata (filename, page numbers, timestamps)",
+    "metadata": {
+      "document_id": "01d64491-a02c-4687-8ef6-8ab52e2e2c68",
+      "filename": "Assignment_PythonDev New.pdf",
+      "page": 1,
+      "chunk": 2,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:25:26.461773"
+    }
+  },
+  {
+    "id": "01d64491-a02c-4687-8ef6-8ab52e2e2c68_page_2_chunk_1",
+    "document_id": "01d64491-a02c-4687-8ef6-8ab52e2e2c68",
+    "text": "4. HYBRID SEARCH IMPLEMENTATION\n5. CONVERSATION MEMORY & HISTORY\n- Implement conversation history tracking\n- Enable follow-up questions with context awareness\n- Store conversation turns in memory\n- Use conversation buffer or summary memory\n- Allow users to reference previous questions/answers\n6. BACKEND & FRONTEND ARCHITECTURE\nBackend (Fast API):\n- Build RESTful API using Fast API\n- Appropriate Endpoints as required\nFrontend (HTML/CSS/JavaScript):\n- Build single-page application using vanilla HTML, CSS, and JavaScript\n- No frameworks required (React, Vue, etc.) - pure HTML/CSS/JS only\n- Can use simple libraries like Bootstrap for styling (optional)\nDELIVERABLES\n1. Source code repository\n2. Documentation\n3. Demo:\n- Sample documents for testing\n- Example queries demonstrating key features",
+    "metadata": {
+      "document_id": "01d64491-a02c-4687-8ef6-8ab52e2e2c68",
+      "filename": "Assignment_PythonDev New.pdf",
+      "page": 2,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:25:26.461773"
+    }
+  },
+  {
+    "id": "7bce929e-4aef-4682-81e1-db0d42b2e0c7_page_1_chunk_1",
+    "document_id": "7bce929e-4aef-4682-81e1-db0d42b2e0c7",
+    "text": "ASSIGNMENT: Build an Advanced Document Q&A RAG System with Multi-Agent\nArchitecture\nOVERVIEW:\nCreate a sophisticated RAG (Retrieval-Augmented Generation) application were users\nupload documents (text/PDF), builds a knowledge base and then query the content. The\nsystem uses a multi-agent architecture with MCP (Model Context Protocol) integration\nto retrieve relevant info, perform web searches when needed, and generate accurate\nanswers using an LLM.\nMUST USE: LangGraph for agent orchestration\nCORE REQUIREMENTS\n1. MULTI-AGENT ARCHITECTURE\nImplement a coordinated multi-agent system with the following agents:\nOrchestrator Agent, Query Analysis Agent, Retrieval Agent, Re-ranking Agent,\nGeneration Agent, Citation Agent\n2. MCP (MODEL CONTEXT PROTOCOL) INTEGRATION\nRequired MCP Servers:\n- Web Search MCP Server, Vector Database MCP Server, Document Processing MCP\nServer (Optional but Recommended)",
+    "metadata": {
+      "document_id": "7bce929e-4aef-4682-81e1-db0d42b2e0c7",
+      "filename": "Assignment_PythonDev New.pdf",
+      "page": 1,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:42:29.377963"
+    }
+  },
+  {
+    "id": "7bce929e-4aef-4682-81e1-db0d42b2e0c7_page_1_chunk_2",
+    "document_id": "7bce929e-4aef-4682-81e1-db0d42b2e0c7",
+    "text": "3. DOCUMENT PROCESSING\n- Accept text files (.txt, .md) and PDFs\n- Extract text content accurately\n- Support image extraction from PDFs with OCR\n- Chunk documents intelligently (consider semantic boundaries)\n- Generate embeddings for all chunks\n- Preserve document metadata (filename, page numbers, timestamps)",
+    "metadata": {
+      "document_id": "7bce929e-4aef-4682-81e1-db0d42b2e0c7",
+      "filename": "Assignment_PythonDev New.pdf",
+      "page": 1,
+      "chunk": 2,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:42:29.377963"
+    }
+  },
+  {
+    "id": "7bce929e-4aef-4682-81e1-db0d42b2e0c7_page_2_chunk_1",
+    "document_id": "7bce929e-4aef-4682-81e1-db0d42b2e0c7",
+    "text": "4. HYBRID SEARCH IMPLEMENTATION\n5. CONVERSATION MEMORY & HISTORY\n- Implement conversation history tracking\n- Enable follow-up questions with context awareness\n- Store conversation turns in memory\n- Use conversation buffer or summary memory\n- Allow users to reference previous questions/answers\n6. BACKEND & FRONTEND ARCHITECTURE\nBackend (Fast API):\n- Build RESTful API using Fast API\n- Appropriate Endpoints as required\nFrontend (HTML/CSS/JavaScript):\n- Build single-page application using vanilla HTML, CSS, and JavaScript\n- No frameworks required (React, Vue, etc.) - pure HTML/CSS/JS only\n- Can use simple libraries like Bootstrap for styling (optional)\nDELIVERABLES\n1. Source code repository\n2. Documentation\n3. Demo:\n- Sample documents for testing\n- Example queries demonstrating key features",
+    "metadata": {
+      "document_id": "7bce929e-4aef-4682-81e1-db0d42b2e0c7",
+      "filename": "Assignment_PythonDev New.pdf",
+      "page": 2,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:42:29.377963"
+    }
+  },
+  {
+    "id": "103e64ed-7fc4-48fa-a5e2-0adb9f36f9dd_page_1_chunk_1",
+    "document_id": "103e64ed-7fc4-48fa-a5e2-0adb9f36f9dd",
+    "text": "Holland Student Detail\nKajal Rajput\nID: HL2926    Nationality: American Samoa    DOB: 16/04/2026    Gender: Female\ndraft Sept 2026\n1 BSc Business Psychology\nSept 2026   BCA 12th   Haarlem university of Applied Science   01/05/2026\nProfile\nPersonal Information\nGiven name Kajal\nFamily name Rajput\nGender Female\nMarital status Single\nCitizenship American Samoa\nFather name Ram\nMother name Rajeshwari\nPassport number 1234467\nDate of birth 16/04/2026\nStudent ID HL2926\nContacts\nEmail kr8259050@gmail.com\nAlternate email kr8259050@gmail.com\nMobile +1684 123456899\nAlternate contact —",
+    "metadata": {
+      "document_id": "103e64ed-7fc4-48fa-a5e2-0adb9f36f9dd",
+      "filename": "nl-student-detail-29 (5).pdf",
+      "page": 1,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:43:49.431361"
+    }
+  },
+  {
+    "id": "103e64ed-7fc4-48fa-a5e2-0adb9f36f9dd_page_2_chunk_1",
+    "document_id": "103e64ed-7fc4-48fa-a5e2-0adb9f36f9dd",
+    "text": "Residential address New layout Ovum Ogbor Hill Aba\nCorrespondence address New layout Ovum Ogbor Hill Aba\nCity / Province / Region Abia, Alberta\nPostal code 144601\nCountry American Samoa\nHolland Information\nOnshore Student No\nHolland Contact No 688762353\nHolland Address New layout Ovum Ogbor Hill Aba\nHolland College Attended No\nHolland College Name N/A\nCourse Start Date 01/05/2026\nCourse End Date 16/05/2026\nAgency Information\nApply By Agency Yes\nAgency MakeStudy\nAgent ID 1\nEducation Background\nBCA\n12th\nApplications\n# College & Program Application &\nOffer Letter\nFee / Deposit Class Start Reference\nNo",
+    "metadata": {
+      "document_id": "103e64ed-7fc4-48fa-a5e2-0adb9f36f9dd",
+      "filename": "nl-student-detail-29 (5).pdf",
+      "page": 2,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:43:49.431361"
+    }
+  },
+  {
+    "id": "103e64ed-7fc4-48fa-a5e2-0adb9f36f9dd_page_3_chunk_1",
+    "document_id": "103e64ed-7fc4-48fa-a5e2-0adb9f36f9dd",
+    "text": "1 Haarlem university of\nApplied Science\nBSc Business Psychology\nCreated: 16 Apr 2026\nApplication fee:\n850\nPayment date:\n01/05/2026\nOL Status: Applied\nOL Issue Date:\n01/05/2026\nLOA Deposit:\n05345\nDeposit date: —\nLOA Status: Not\napplied\nPAL Status: Not\nissued\nDeadline:\n01/05/2026\nAdditional fee:\n200\nIntake: Sept\n2026\nStart:\n01/05/2026\n—\nVisa Information\nCollege Program Submission\nDate\nVisa Status Refund\nHaarlem university of Applied\nScience\nBSc Business\nPsychology\n30/04/2026 Visa Under\nProcess\nNo\nThis is a system generated student detail document for internal use and printing.",
+    "metadata": {
+      "document_id": "103e64ed-7fc4-48fa-a5e2-0adb9f36f9dd",
+      "filename": "nl-student-detail-29 (5).pdf",
+      "page": 3,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:43:49.431361"
+    }
+  },
+  {
+    "id": "9fb80c82-3dfe-4de5-aea4-79501773f9cc_page_1_chunk_1",
+    "document_id": "9fb80c82-3dfe-4de5-aea4-79501773f9cc",
+    "text": "Invoice\nOrder ID: APP1-1756544733141\nTxn ID: TXN17565453315c3b4786\nDate: 30 Aug 2025 09:15\nStatus: Failure\nhttps://visa4u.online/\nsupport@visa4u.online\nBilled To\nParminder Singh\np.singh@makestudy.com\n9875901624\nGateway: payu\nCurrency: INR\nApplication: United Kingdom (UK) / Visitor / Tourist\nService Context Amount\nService Fee\nvisa4u.online service charges\nUnited Kingdom (UK) /\nVisitor / Tourist\nGBP 20.00\nTotal INR 2,300.00\nThis invoice is generated electronically. For queries, contact support@visa4u.online.",
+    "metadata": {
+      "document_id": "9fb80c82-3dfe-4de5-aea4-79501773f9cc",
+      "filename": "invoice_APP1-1756544733141.pdf",
+      "page": 1,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:45:04.004827"
+    }
+  },
+  {
+    "id": "c7f0acb4-c8e3-4ec2-9a0e-d98fb66d5315_page_1_chunk_1",
+    "document_id": "c7f0acb4-c8e3-4ec2-9a0e-d98fb66d5315",
+    "text": "KAJAL RAJPUT\nPhone+91 8725974501 Envelopekr8259050@gmail.com LINKEDINlinkedin.com/in/kajal-rajput-dev Githubgithub.com/kajal768\nExperience\nMakeStudy Aug 2025 – Present\nAssistant Web Developer Punjab, India\n– Developed and maintained web applications using PHP , MySQL, and JavaScript\n– Built secure authentication systems and dashboards supporting multiple user roles\n– Implemented CRUD operations, improving system eﬃciency and reducing manual work\n– Improved UI responsiveness and optimized application performance\n– Integrated frontend with backend for seamless data ﬂow across modules\n– Developed OCR-based Passport Auto-Fill system using Tesseract OCR and AWS Cloud\n– Automated data extraction from passport images to reduce manual entry eﬀort\n– Implemented admin panel features including PDF export, print, and email functionality",
+    "metadata": {
+      "document_id": "c7f0acb4-c8e3-4ec2-9a0e-d98fb66d5315",
+      "filename": "kajal_s_resume.pdf",
+      "page": 1,
+      "chunk": 1,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:46:37.279584"
+    }
+  },
+  {
+    "id": "c7f0acb4-c8e3-4ec2-9a0e-d98fb66d5315_page_1_chunk_2",
+    "document_id": "c7f0acb4-c8e3-4ec2-9a0e-d98fb66d5315",
+    "text": "– Used AI tools like ChatGPT and Claude for debugging, optimization, and faster development\nProjects\nCaptionCraft AI (AI Caption Generator)\n– Developed AI-based caption generation tool using external APIs and prompt engineering\n– Improved output accuracy by reﬁning prompts and optimizing API responses\n– Designed modern, responsive UI with focus on clean user experience\n– Used AI tools for debugging and faster development workﬂow\nSky Aura Travel Website\n– Designed visually engaging travel website with modern UI and structured layout\n– Implemented responsive design for seamless experience across devices\n– Focused on user-friendly navigation and clean frontend architecture\nCoﬀee Brand Website\n– Developed stylish coﬀee-themed website with modern layout and smooth UI\n– Created visually appealing sections with focus on frontend presentation",
+    "metadata": {
+      "document_id": "c7f0acb4-c8e3-4ec2-9a0e-d98fb66d5315",
+      "filename": "kajal_s_resume.pdf",
+      "page": 1,
+      "chunk": 2,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:46:37.279584"
+    }
+  },
+  {
+    "id": "c7f0acb4-c8e3-4ec2-9a0e-d98fb66d5315_page_1_chunk_3",
+    "document_id": "c7f0acb4-c8e3-4ec2-9a0e-d98fb66d5315",
+    "text": "– Ensured responsive design and consistent user experience\nEducation\nIK Gujral Punjab Technical University 2022 – 2025\nBachelor of Computer Applications Punjab, India\n12th Grade 2022\n80%\n10th Grade 2020\n78%\nSkills\nLanguages: PHP , JavaScript, HTML, CSS, SQL\nFrameworks: Laravel, CodeIgniter, Bootstrap\nTools: GitHub, VS Code, XAMPP\nDesign: Figma, Canva\nAI Tools: ChatGPT , Claude\nOther: REST API Integration",
+    "metadata": {
+      "document_id": "c7f0acb4-c8e3-4ec2-9a0e-d98fb66d5315",
+      "filename": "kajal_s_resume.pdf",
+      "page": 1,
+      "chunk": 3,
+      "type": "pdf",
+      "timestamp": "2026-05-08T17:46:37.279584"
+    }
+  }
+]

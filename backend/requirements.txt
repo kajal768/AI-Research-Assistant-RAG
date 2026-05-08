@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+pypdf
+langchain
+langchain-community
+langgraph
+chromadb
+openai
+groq
+python-dotenv
+faiss-cpu
+scikit-learn
