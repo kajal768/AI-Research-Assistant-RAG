@@ -3,3 +3,8 @@ __pycache__/
 chroma_db/
 .env
 *.pyc
+backend/uploads/
+backend/vector_database.json
+.env
+venv/
+__pycache__/
