@@ -278,6 +278,39 @@ function validateFile(file) {
    FILE SELECT
 ========================================================= */
 
+// function handleFileSelection(event) {
+
+//     const file = event.target.files[0];
+
+//     if (!file) return;
+
+//     if (!validateFile(file)) {
+
+//         setUploadStatus(
+//             "❌ Only PDF, TXT and MD files are allowed.",
+//             "error"
+//         );
+
+//         return;
+//     }
+
+//     selectedFile = file;
+
+//     uploadedFileName = file.name;
+
+//     currentDocumentId = "";
+
+//     isDocumentUploaded = false;
+
+//     createNewChat(file.name);
+
+//     updateAskControls();
+
+//     setUploadStatus(
+//         "Selected file: " + file.name,
+//         "info"
+//     );
+// }
 function handleFileSelection(event) {
 
     const file = event.target.files[0];
@@ -310,6 +343,9 @@ function handleFileSelection(event) {
         "Selected file: " + file.name,
         "info"
     );
+
+    // Auto upload document after selection
+    uploadSelectedDocument();
 }
 
 /* =========================================================
@@ -521,6 +557,27 @@ document.addEventListener("DOMContentLoaded", () => {
         "info"
     );
 
+    /* =========================
+       MOBILE MENU TOGGLE
+    ========================= */
+
+    const mobileMenuButton = getEl("mobileMenuButton");
+
+    if (mobileMenuButton) {
+
+        mobileMenuButton.addEventListener("click", () => {
+
+            document
+                .querySelector(".sidebar")
+                .classList
+                .toggle("menu-open");
+        });
+    }
+
+    /* =========================
+       EVENTS
+    ========================= */
+
     getEl("newChatButton")
         .addEventListener("click", startNewChat);
 
@@ -529,6 +586,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     getEl("filePickerButton")
         .addEventListener("click", () => {
+
             getEl("documentInput").click();
         });
 
@@ -543,6 +601,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     getEl("questionInput")
         .addEventListener("input", function () {
+
             autoResizeTextarea(this);
         });
 

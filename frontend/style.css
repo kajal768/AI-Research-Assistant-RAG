@@ -386,8 +386,8 @@ button {
 
 .upload-strip {
   display: none;
+  grid-template-columns: 1fr auto;
   align-items: center;
-  justify-content: space-between;
   gap: 12px;
   background: #f8fafc;
   border: 1px solid #e2e8f0;
@@ -397,11 +397,12 @@ button {
 }
 
 .upload-strip.show {
-  display: flex;
+  display: grid;
 }
 
 .upload-strip-left {
   min-width: 0;
+  overflow: hidden;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -411,6 +412,8 @@ button {
 }
 
 .upload-strip-left span:last-child {
+  display: block;
+  max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -426,6 +429,8 @@ button {
   padding: 8px 13px;
   cursor: pointer;
   transition: 0.2s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .mini-upload-btn:hover:not(:disabled) {
@@ -437,6 +442,26 @@ button {
   background: #cbd5e1;
   cursor: not-allowed;
 }
+
+@media (max-width: 768px) {
+  .upload-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .mini-upload-btn {
+    width: 100%;
+    margin-top: 6px;
+  }
+}
+/* .mini-upload-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 16px rgba(17, 24, 39, 0.16);
+}
+
+.mini-upload-btn:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+} */
 
 .ask-lock-hint {
   font-size: 12px;
@@ -753,5 +778,65 @@ button {
 
   .upload-status-box {
     font-size: 12px;
+  }
+}
+.mobile-menu-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .sidebar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 12px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+    flex-shrink: 0;
+    z-index: 9999;
+  }
+
+  .nav-menu {
+    display: none !important;
+    position: absolute;
+    top: 62px;
+    right: 12px;
+    width: 200px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    z-index: 99999;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .sidebar.menu-open .nav-menu {
+    display: flex !important;
+  }
+
+  .sidebar.menu-open .nav-item {
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    padding: 12px;
+  }
+
+  .sidebar.menu-open .nav-item span {
+    display: inline-flex !important;
   }
 }
