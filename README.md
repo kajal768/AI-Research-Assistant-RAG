@@ -1,94 +1,160 @@
+---
 
-The AI Research Assistant RAG System combines modern AI orchestration, vector search, and conversational memory to create an intelligent document assistant capable of understanding and answering user queries from uploaded files.
+# Environment Variables
 
-This project is built using:
+Create a `.env` file inside the `backend/` folder.
 
-- FastAPI for backend APIs
-- LangGraph for multi-agent orchestration
-- ChromaDB for vector storage
-- Sentence Transformers for embeddings
-- HTML/CSS/JavaScript + Bootstrap for frontend UI
+```env
+GROQ_API_KEY=your_groq_api_key
+GROQ_MODEL=llama3-8b-8192
+FRONTEND_URL=http://127.0.0.1:5500
+```
 
-The application supports semantic retrieval, contextual conversations, and responsive AI-chat interactions.
+If using OpenAI instead of Groq:
+
+```env
+OPENAI_API_KEY=your_openai_api_key
+```
+
+Do not commit actual API keys to GitHub.
 
 ---
 
-# Features
+# Backend Setup
 
-- Multi-Agent RAG workflow using LangGraph
-- Semantic document retrieval
-- ChromaDB vector database integration
-- PDF, TXT, and Markdown document upload
-- Automatic document chunking & embeddings
-- Context-aware AI question answering
-- Conversation history & memory
-- Responsive AI assistant UI
-- RESTful API architecture
-- Real-time frontend interaction
-- Frontend deployment on Vercel
-- Backend deployment on Render
-
----
-
-# Technology Stack
-
-## Backend
-- Python
-- FastAPI
-- LangGraph
-- ChromaDB
-- Sentence Transformers
-- Uvicorn
-
-## Frontend
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap 5
-- Bootstrap Icons
-
-## Deployment
-- Vercel (Frontend)
-- Render (Backend)
-
----
-
-# System Architecture
-
-The application follows a modular Multi-Agent architecture.
-
-### Agents Used
-
-| Agent | Responsibility |
-|------|----------------|
-| Query Analysis Agent | Understands user queries |
-| Retrieval Agent | Retrieves relevant vector chunks |
-| Re-ranking Agent | Reorders retrieved results |
-| Generation Agent | Generates final AI response |
-| Citation Agent | Handles source references |
-
-LangGraph orchestrates the workflow between all agents.
-
----
-
-# Folder Structure
+Clone the repository:
 
 ```bash
-AI-Research-Assistant-RAG/
-│
-├── backend/
-│   ├── agents/
-│   ├── services/
-│   ├── uploads/
-│   ├── chroma_db/
-│   ├── main.py
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── app.js
-│
-├── sample_docs/
-├── .gitignore
-└── README.md
+git clone https://github.com/kajal768/AI-Research-Assistant-RAG.git
+```
+
+Move into project folder:
+
+```bash
+cd AI-Research-Assistant-RAG/backend
+```
+
+Create virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate virtual environment:
+
+```bash
+# Windows
+venv\Scripts\activate
+
+# Mac/Linux
+source venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run backend server:
+
+```bash
+uvicorn main:app --reload
+```
+
+Backend runs on:
+
+```bash
+http://127.0.0.1:8000
+```
+
+Swagger API Documentation:
+
+```bash
+http://127.0.0.1:8000/docs
+```
+
+---
+
+# Frontend Setup
+
+Move to frontend folder:
+
+```bash
+cd ../frontend
+```
+
+Run local frontend server:
+
+```bash
+python -m http.server 5500
+```
+
+Frontend URL:
+
+```bash
+http://127.0.0.1:5500
+```
+
+Update backend API URL inside `app.js` if needed.
+
+---
+
+# API Endpoints
+
+| Method | Endpoint | Description |
+|------|-----------|-------------|
+| POST | `/upload` | Upload documents |
+| POST | `/chat` | Ask questions |
+| GET | `/history` | Retrieve conversation history |
+| GET | `/docs` | Swagger API documentation |
+
+---
+
+# How It Works
+
+1. User uploads PDF, TXT, or Markdown files.
+2. Documents are processed and chunked.
+3. Chunks are converted into embeddings.
+4. Vector database stores embeddings.
+5. User asks questions.
+6. LangGraph agents coordinate retrieval and response generation.
+7. AI generates contextual answers with citations.
+
+---
+
+# Deployment
+
+## Backend Deployment (Render)
+
+Start command:
+
+```bash
+uvicorn main:app --host 0.0.0.0 --port $PORT
+```
+
+Add environment variables inside Render dashboard.
+
+---
+
+## Frontend Deployment (Vercel)
+
+Deploy the `frontend/` folder on Vercel.
+
+Update API base URL inside `app.js` with deployed backend URL.
+
+---
+
+# Important Notes
+
+- Do not upload `.env` file to GitHub.
+- Add `.env` inside `.gitignore`.
+- Uploaded files are stored temporarily.
+- Vector database stores processed document embeddings.
+- The project currently uses semantic vector retrieval for document Q&A.
+
+---
+
+# Author
+
+Kajal  
