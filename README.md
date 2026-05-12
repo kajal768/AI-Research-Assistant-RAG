@@ -9,13 +9,6 @@ GROQ_API_KEY=your_groq_api_key
 GROQ_MODEL=llama3-8b-8192
 FRONTEND_URL=http://127.0.0.1:5500
 ```
-
-If using OpenAI instead of Groq:
-
-```env
-OPENAI_API_KEY=your_openai_api_key
-```
-
 Do not commit actual API keys to GitHub.
 
 ---
