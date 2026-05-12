@@ -1,12 +1,3 @@
-# AI Research Assistant RAG System
-
-A professional Multi-Agent Retrieval-Augmented Generation (RAG) application designed to provide intelligent document-based question answering using semantic search, vector embeddings, and contextual AI responses.
-
-The system allows users to upload documents such as PDF, TXT, and Markdown files, build a searchable vector knowledge base, and interact with documents through a modern AI-powered chat interface.
-
----
-
-# Project Overview
 
 The AI Research Assistant RAG System combines modern AI orchestration, vector search, and conversational memory to create an intelligent document assistant capable of understanding and answering user queries from uploaded files.
 
